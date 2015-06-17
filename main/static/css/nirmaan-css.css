@@ -1,0 +1,141 @@
+{% load staticfiles %}
+h2 {
+  margin: 0;
+   color: #666;
+   padding-top: 90px;
+   font-size: 52px;
+   font-family: "trebuchet ms", sans-serif;
+}
+.inspire {
+  color: #ffffff;
+}
+.item{
+
+   text-align: center;
+   height: 300px !important;
+
+}
+.one {
+  background-image: url("{% static "images/nirmaan/ignite-14.jpg" %}");
+  background-size: cover;
+}
+.two{
+  background-image: url("{% static "images/nirmaan/iginte-thumbnail.jpg" %}");
+  background-size: cover;
+}
+.three {
+  background-image: url("{% static"nirmaan/ignite-cover.jpg" %}");
+  background-size:cover;
+}
+
+.carousel{
+   margin-top: -120px;
+   border:2px solid black;
+}
+.nirmaan-slide{
+  width:50%;
+ margin:auto;
+}
+.j-1 p {
+  color: #ffffff;
+}
+.item p {
+  color:#000000;
+}
+.item h3 {
+  color: #000000;
+}
+.j-1 {
+
+  height:400px;
+  text-align: center;
+  background-image: url("{% static "nirmaan/come-be.jpg" %}");
+  background-size: cover;
+  background-position: top 650px center;
+}
+body {
+
+  background-color: #ff6600;
+
+}
+.j-2 {
+  width:80%;
+  margin:auto;
+  text-align: center;
+  margin-top:-50px;
+  height:500px;
+  border: 3px solid black;
+  border-radius: 10px;
+
+}
+.j-3 {
+  width:90%;
+  text-align: center;
+  text-decoration: none;
+  display:none;
+  margin: auto;
+  margin-top:-50px;
+
+  border: 3px solid black;
+  border-radius: 10px;
+
+}
+.j-4 {
+  width:90%;
+  text-align: center;
+  display:none;
+ margin: auto;
+ border: 3px solid black;
+ border-radius: 10px;
+ margin-top:-50px;
+
+}
+.j-5 {
+  width:90%;
+  margin: auto;
+  text-align: center;
+  display:none;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin-top:-50px;
+
+}
+.btn {
+  border: 2px solid black;
+}
+.j-6 {
+  text-align: center;
+  margin-top: -50px;
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+}
+.initiatives-1 {
+  display: none;
+}
+.initiatives-3 {
+  display: none;
+}
+.initiatives-2 {
+  display: none;
+}
+#initiatives-2 {
+ border:2px black solid;
+ width:50%;
+ margin: auto;
+ margin-top: 10px;
+}
+
+#initiatives-1 {
+ border:2px black solid;
+ width:50%;
+ margin: auto;
+ margin-top: 10px;
+}
+
+#initiatives-3 {
+ border:2px black solid;
+ width:50%;
+ margin: auto;
+ margin-top: 10px;
+}

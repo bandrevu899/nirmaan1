@@ -1,0 +1,161 @@
+{% load staticfiles %}
+<html>
+<head>
+  <meta charset="utf-80">
+  <title>Nirmaan@BPHC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="{% static "js/nirmaan.js" %}"></script>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="{% static "css/nirmaan-css.css" %}">
+
+</head>
+<body>
+  <ul class="nav nav-pills">
+    <li class="active"><a href="#">HOME</a></li>
+    <li><a href="#">BLOG</a></li>
+    <li><a href="#">ADMIN</a></li>
+  </ul>
+<div class="jumbotron j-1">
+  <h1 style="color:#ffffff">Nirmaan@BPHC</h1>
+  <blockquote>
+    <p> "A group student volunteers who strive
+      to make the lives of underpriviledged people
+      better"<br>
+      Some people are not as priviledged as we are and a little help from our side can go a long way<br>
+      <br></p>
+    <h3 class="inspire"> EDUCATE-INSPIRE-REPEAT</h2>
+  </blockquote>
+</div>
+<div class="nirmaan-slide">
+  <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+          <div class="active item one">
+              <h2>Slide 1</h2>
+           <div class="carousel-caption">
+                <h3>First slide label</h3>
+                <a href="#"><p>description of slide</p>
+              </a>
+              </div>
+          </div>
+          <div class="item two">
+              <h2>Slide 2</h2>
+              <div class="carousel-caption">
+                <h3>Second slide label</h3>
+                <p>description of slide</p>
+              </div>
+          </div>
+          <div class="item three">
+              <h2>Slide 3</h2>
+              <div class="carousel-caption">
+                <h3>Third slide label</h3>
+                <p>description of slide</p>
+              </div>
+          </div>
+      </div>
+
+      <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="carousel-control right" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+  </div>
+
+
+</div>
+<div class="jumbotron j-4">
+  <h1>NGO CONFERENCE</h1>
+  <p>Different NGOs come to Bits-pilani,Hyderabad campus which provides a common platform for them to interact<br>
+    Each organisation is given a chance to share their activities and ideas<br>
+    These ideas are exchanged among the organisations and discussions happen on how to implement them.<br>
+    Gives a platform to discuss on how different organisations can come together to further their reach.<br>
+  </p>
+</div>
+<div class="jumbotron j-5">
+  <h1>CAMPUS FESTS</h1>
+  <p>In a campus of 4000 students small iniatives and leave a big impact<br>
+    Blood donation events happen during the course of the whole year where students are encouraged to donate blood<br>
+    A collection drive where students give away different items which they no longer use and are distributed to the people who need it<br>
+    Some things are useless to some people while they are valuables to others<br>
+    Selling of candles and colors that were made by unemployed women during different festivals like diwali and holi and the money is given back to them</p>
+</div>
+<div class="jumbotron j-3">
+  <h1>IGNITE</h1>
+  <p>650 underpriviledged orphans come to Bits-pilani,Hyderabad to get inspired by the students of the campus<br>
+    A 2 day continous event where the children are taught different values and morals that are essential in life.<br></p>
+  <h3>Events</h3>
+<p>Enviromental awarness</p>
+      <p>Science</p>
+      <p>Maths</p>
+      <p>Carrer guidance</p>
+      <p>Dance workshop</p>
+      <p>Sports and Games</p>
+      <p>Health Measures</p>
+      <p>Science Models</p>
+      <p>Fun Experiments</p>
+      <p>Art</p>
+  <p> the joy in their faces inspires us to strive further</p>
+</div>
+
+
+
+
+
+<div class="jumbotron j-2">
+  <h1>Our major events</h1>
+  <p>These are our major events<br> apart from our continous struggle to make peoples lives better</p>
+
+<div class="col-md-4">
+  <h3>NGO Conference</h3>
+  <p>A platform for different NGOs to come and share their experiences and discuss about how we can go the extra mile</p>
+  <button type="button" class="btn btn-primary" id="link-1">Know more</button>
+</div>
+<div class="col-md-4">
+  <h3>IGNITE</h3>
+  <p>Our biggest intiative to motivate and inspire young children to pursue there dreams.</p>
+  <button type="button" class="btn btn-primary" id="link-2">Know more</button>
+</div>
+<div class="col-md-4">
+  <h3>Campus Events</h3>
+  <p>Small iniatives like a blood danation drive or a Collection drive can make a big difference for others </p>
+  <button type="button" class="btn btn-primary" id="link-3">Know more</button>
+</div>
+</div>
+<div class="jumbotron j-6">
+  <h1>Our major Initiatives</h1>
+
+  <h3 id="initiatives-1">School Adoption Program<span class="glyphicon glyphicon-arrow-down"></span></h3>
+  <div class="initiatives-1">
+    <p>#need photo<br>Our organisation adopts some of the schools around the villages in campus<br>
+      we take up the responsibility to help the teachers in improving the education facilities<br>
+      some of our volunteers also take the time out to go teach some of the children in need of better attention<br>
+      we try to provide them with facilities like books and computers, we also prepare their school curiculum</p>
+  </div>
+  <h3 id="initiatives-2">Employement Generation(Livelihood Initiatives)<span class="glyphicon glyphicon-arrow-down"></span></h3>
+  <div class="initiatives-2">
+    <p >#need photo<br>We teach unemployed women the skills to find a job such has making candles, cloth bags, toys and many more<br>
+      we provide them with the raw material and sell the finished goods in different markets and give back the money generated to them<br>
+    </p>
+  </div>
+  <h3 id="initiatives-3">Community Development<span class="glyphicon glyphicon-arrow-down"></span></h3>
+  <div class="initiatives-3">
+    <p >#need photo<br>need description</p>
+  </div>
+</div>
+
+
+
+
+
+</body>
+</html>
