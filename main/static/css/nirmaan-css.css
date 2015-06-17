@@ -1,4 +1,4 @@
-{% load staticfiles %}
+
 h2 {
   margin: 0;
    color: #666;
@@ -15,18 +15,7 @@ h2 {
    height: 300px !important;
 
 }
-.one {
-  background-image: url("{% static "images/nirmaan/ignite-14.jpg" %}");
-  background-size: cover;
-}
-.two{
-  background-image: url("{% static "images/nirmaan/iginte-thumbnail.jpg" %}");
-  background-size: cover;
-}
-.three {
-  background-image: url("{% static"nirmaan/ignite-cover.jpg" %}");
-  background-size:cover;
-}
+
 
 .carousel{
    margin-top: -120px;
@@ -49,7 +38,7 @@ h2 {
 
   height:400px;
   text-align: center;
-  background-image: url("{% static "nirmaan/come-be.jpg" %}");
+  background-image: url("{% static 'come-be.jpg' %}");
   background-size: cover;
   background-position: top 650px center;
 }
